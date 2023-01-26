@@ -1,0 +1,78 @@
+*, *::before, *::after {
+  margin: none;
+  padding: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+  background-color: #282D35;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 95px;
+  background-color: #22242d;
+  color: white;
+}
+
+.nav-left{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.nav-logo {
+  max-width: 60px;
+  display: inline-block; 
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  display: inline-block; 
+  color: #00D8FF;
+  font-size: 32px;
+}
+
+section {
+  color: white ;
+  padding: 20px;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #61DAFB; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+li {
+  padding: 4px;
+  font-size: 24px;
+}
+
+.logo{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  z-index: -1;
+}
