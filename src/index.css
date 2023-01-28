@@ -28,18 +28,17 @@ nav {
 .nav-right{
   display: flex;
   align-items: center;
-  justify-content: end;
-  padding-left: 10px;
+  padding-left: 20px;
   padding-right: 10px;
 }
 
-span {
-  display: inline-block;
+.nav-text{
+  align-content: center;
+  text-align: center;
 }
 
 p{
   font-size: 20px;
-  text-align: center;
 }
 
 .nav-logo {
