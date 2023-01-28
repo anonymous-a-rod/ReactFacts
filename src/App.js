@@ -1,4 +1,3 @@
-import './App.css';
 import MainContent from './MainContent';
 import Header from './Header';
 import Footer from './Footer';
