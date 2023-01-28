@@ -27,13 +27,19 @@ nav {
 
 .nav-right{
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: end;
+  padding-left: 10px;
   padding-right: 10px;
+}
+
+span {
+  display: inline-block;
 }
 
 p{
   font-size: 20px;
+  text-align: center;
 }
 
 .nav-logo {

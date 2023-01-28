@@ -7,7 +7,7 @@ function Header(){
                     <h2>ReactFacts</h2>    
                 </div>
                 <div className="nav-right">
-                    <p><strong>React Course - Project 1</strong></p>
+                    <p className="nav-text"><strong><span>React Course -</span> <span>Project 1</span> </strong></p>
                 </div>       
             </nav>
         </header>
